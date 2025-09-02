@@ -132,13 +132,5 @@ This repository showcases our **Final Year Group Project** where we applied **Ma
 ---
 
 <p align="center">
-  <img src="https://img.icons8.com/color/96/000000/combo-chart.png" />
-  <img src="https://img.icons8.com/color/96/000000/line-chart.png" />
-  <img src="https://img.icons8.com/color/96/000000/bar-chart.png" />
-</p>  
-
----
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0072ff,100:00c6ff&height=120&section=footer" />
+  <img src="assets/da500959c4a72da8dd39ce88fc97208c_abstract_waves_gif___Google_Search.gif" />
 </p>
