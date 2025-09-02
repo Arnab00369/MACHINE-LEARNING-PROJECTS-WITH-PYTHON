@@ -1,10 +1,15 @@
 <h1 align="center">🏥 Medical Insurance Cost Analysis & Prediction</h1>
 
 <p align="center">
+  <img src="PROJECT-1/assets/demo_medical_insurance_cost_prediction_gif___Google_Search.gif">
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/ML-Regression-blue?style=for-the-badge&logo=python" />
   <img src="https://img.shields.io/badge/Tools-Google%20Colab%20%7C%20KNIME-orange?style=for-the-badge&logo=googlecolab" />
   <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge&logo=github" />
 </p>
+
 
 ---
 
