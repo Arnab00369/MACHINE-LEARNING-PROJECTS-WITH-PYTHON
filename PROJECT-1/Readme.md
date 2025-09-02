@@ -1,90 +1,117 @@
-<!-- Banner (capsule-render image is external and works on GitHub) -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,100:0072ff&height=200&section=header&text=Medical%20Insurance%20Cost%20Analysis%20%26%20Forecasting&fontSize=36&fontColor=ffffff&animation=fadeIn&fontAlignY=40" alt="banner" />
-</p>
+<h1 align="center">🏥 Medical Insurance Cost Analysis & Prediction</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Notebook-Jupyter-orange?logo=jupyter" alt="notebook" />
-  <img src="https://img.shields.io/badge/Language-Python-blue?logo=python" alt="python" />
-  <img src="https://img.shields.io/badge/Environment-Google%20Colab-lightgrey?logo=googlecolab" alt="colab" />
-  <img src="https://img.shields.io/badge/Libraries-pandas%20%7C%20NumPy%20%7C%20scikit--learn%20%7C%20Seaborn-green" alt="libs" />
-  <img src="https://img.shields.io/badge/Status-Complete-success" alt="status" />
+  <img src="https://img.shields.io/badge/ML-Regression-blue?style=for-the-badge&logo=python" />
+  <img src="https://img.shields.io/badge/Tools-Google%20Colab%20%7C%20KNIME-orange?style=for-the-badge&logo=googlecolab" />
+  <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge&logo=github" />
 </p>
 
 ---
 
-# 🩺 **Medical Insurance Cost Analysis & Forecasting**
-**A focused, production-ready Jupyter Notebook** that predicts health insurance charges using demographic and lifestyle features and demonstrates model development, validation, and interpretation.
+<h2>📖 Introduction</h2>
 
-> **One-liner:** Predict insurance charges (target `charges`) using features like **age, sex, bmi, children, smoker, region** — with explainable models, visual EDA, and actionable insights.
+This project explores **medical insurance cost prediction** using **regression techniques** and **time series forecasting**.  
+The dataset includes demographic and lifestyle attributes such as:
 
----
+- 🧑 Age  
+- ⚧️ Gender  
+- ⚖️ BMI (Body Mass Index)  
+- 🚬 Smoking status  
+- 👶 Number of children  
+- 🌍 Region  
 
-## 🔎 Quick repo highlights (what recruiters care about)
-- **Data-driven problem**: Predict insurance charges to assist in premium-setting and risk analysis.
-- **Clean pipeline**: Data cleaning → EDA → Feature engineering → Modeling → Evaluation → Interpretation.
-- **Models used**: Linear Regression, Polynomial Regression, (optionally) Tree-based baseline & ensemble mention.
-- **Metrics reported**: MAE, RMSE, R².
-- **Tools**: Python, pandas, NumPy, scikit-learn, Seaborn, Matplotlib, Google Colab.
-- **Deliverables**: Jupyter Notebook (`Medical_Insurance_Data_Analysis_and_Forecasting.ipynb`), visuals (`assets/*.png`), README (this file).
-
----
-
-## 📁 Repository structure
-| File / Folder | Purpose |
-|---|---|
-| `Medical_Insurance_Data_Analysis_and_Forecasting.ipynb` | Main notebook (run this to reproduce results) |
-| `assets/` | Plots & screenshots used in README (`eda_age_bmi.png`, `model_residuals.png`, etc.) |
-| `requirements.txt` | Python dependencies to reproduce environment |
-| `README.md` | This file — polished project summary for recruiters |
-| `LICENSE` | Project license (e.g., MIT) |
+The analysis combines **Python (Google Colab)** for hands-on ML coding with **KNIME Analytics Platform** for workflow-based modeling.
 
 ---
 
-## 🧾 Dataset (source & schema)
-**Source:** Kaggle (Medical Insurance dataset) — link in the notebook.  
-**Typical columns (used in this notebook):**
+<h2>🎯 Objectives</h2>
 
-| Column | Type | Description |
-|---:|---|---|
-| `age` | int | Age of primary beneficiary |
-| `sex` | categorical | Male / Female |
-| `bmi` | float | Body Mass Index — numeric |
-| `children` | int | Number of children covered by health insurance |
-| `smoker` | categorical | Yes / No |
-| `region` | categorical | e.g., southwest, southeast, northwest, northeast |
-| `charges` | float | Yearly medical insurance charges (target variable) |
+✔️ Predict **medical insurance charges** using regression models.  
+✔️ Perform **data cleaning, outlier removal, and visualization**.  
+✔️ Compare **Linear vs Polynomial Regression**.  
+✔️ Explore **feature importance** (e.g., BMI, age, smoker).  
+✔️ Automate workflows using **KNIME** for scalability.  
 
 ---
 
-## 🚦 Project Workflow (what I did — one line per step)
-1. **Load dataset** (CSV) and quick sanity checks (`.head()`, `.info()`, `.describe()`).
-2. **Data cleaning**: Convert datatypes, handle duplicates, check missing values.
-3. **Feature engineering**: One-hot encode categorical variables (`sex`, `smoker`, `region`); create BMI categories or `age_group` if helpful.
-4. **Exploratory Data Analysis (EDA)**: distributions, pairplots, correlations, boxplots for outliers.
-5. **Modeling**:
-   - Baseline: Mean predictor.
-   - Linear Regression (OLS).
-   - Polynomial Regression (degree 2 or tuned).
-   - (Optional) Tree-based model for nonlinear baseline (e.g., RandomForestRegressor).
-6. **Evaluation**: Train/test split (typical 80/20), metrics (MAE, MSE, RMSE, R²), residual plots.
-7. **Interpretation**: Feature importance, coefficients, partial dependence (if used).
-8. **Conclusions & Future scope**.
+<h2>🛠️ Tools & Libraries</h2>
+
+<table>
+<tr><td><b>Platform</b></td><td>Google Colab, KNIME Analytics Platform</td></tr>
+<tr><td><b>Languages</b></td><td>Python (v3.6–3.9)</td></tr>
+<tr><td><b>Libraries</b></td><td>pandas, NumPy, scikit-learn, Seaborn, Matplotlib</td></tr>
+<tr><td><b>Workflows</b></td><td>KNIME Nodes: File Reader, Rule Engine, Partitioner, Regression Predictor, Numeric Scorer, Visualization nodes</td></tr>
+</table>
 
 ---
 
-## 📊 Key EDA & Visuals
-> Replace the `assets/*.png` with the actual exported images from your notebook.
+<h2>🔧 Methodology</h2>
+
+<ol>
+<li>📂 <b>Data Preprocessing</b>: Missing value handling, outlier removal</li>
+<li>📊 <b>EDA</b>: Scatter plots, box plots, histograms, correlations</li>
+<li>⚙️ <b>Feature Engineering</b>: BMI groupings, age groupings, categorical encoding</li>
+<li>📈 <b>Modeling</b>: Linear Regression, Polynomial Regression (Colab), KNIME regression workflows</li>
+<li>🧪 <b>Evaluation</b>: Train-test split, scoring metrics (R², MSE)</li>
+</ol>
+
+---
+
+<h2>📊 Visuals & Snapshots</h2>
 
 <p align="center">
-  <img src="assets/eda_age_bmi.png" width="380" alt="age bmis" />
-  <img src="assets/charges_v_smoker.png" width="380" alt="smoker charges" />
+  <img src="https://img.icons8.com/color/96/000000/combo-chart.png" />
 </p>
 
-**Insights from EDA (examples — update with your exact notebook findings):**
-- **Smoker vs Non-smoker:** Smokers have dramatically higher median charges (visualized via boxplot).
-- **BMI correlation:** Positive correlation between `bmi` and `charges` with notable outliers.
-- **Age effect:** Charges increase with age; older groups show higher variance.
-- **Children:** small positive contribution; check interaction with smoking & BMI.
+- Scatter Plot: `Age vs Charges`, `BMI vs Charges`  
+- Box Plot: Charges across **smoker vs non-smoker**  
+- Histogram: Distribution of charges by number of children  
+- KNIME Dashboards: Automated regression predictions  
 
 ---
+
+<h2>✅ Results Summary</h2>
+
+- ⭐ <b>Best performing model:</b> Polynomial Regression (extended with feature transformations)  
+- 🔑 <b>Most important features:</b> <code>smoker</code>, <code>age</code>, <code>bmi</code>  
+- 🌍 <b>Practical impact:</b> Supports **risk-adjusted premiums**, **targeted health interventions**, and identifying vulnerable subgroups  
+
+---
+
+<h2>🔮 Future Scope</h2>
+
+- Add **SHAP/LIME** interpretability for per-sample insights  
+- Build an **API (FastAPI/Flask)** to serve predictions  
+- Expand dataset with **hospitalization & medical history**  
+- Deploy a **Streamlit dashboard** with interactive sliders  
+- Extend to **time-series panel data** for longitudinal studies  
+
+---
+
+<h2>👨‍🏫 About the Author</h2>
+
+<b>Arnab Jana</b> — Final-year B.Tech student (CSE) • Budge Budge Institute of Technology  
+
+📌 <b>Role:</b> Data Cleaning • EDA • Regression Modelling • Visualization • Report Writing  
+
+- 🌐 GitHub: <a href="https://github.com/Arnab00369">github.com/your-username</a>  
+- 📧 Email: <a href="arnab003jn.369@gmail.com">arnab003jn.369@gmail.com</a>  
+
+---
+
+<h2>📜 License</h2>
+
+This project is released under the <b>MIT License</b>. See <code>LICENSE</code> for details.  
+
+---
+
+<h2>📌 Call-to-Action for Recruiters</h2>
+
+If you like what you see:  
+- ⭐ Star this repo  
+- 🔗 Check my profile for more projects  
+- 📨 Contact me for **internship/full-time roles** in <b>Data Science / ML Engineering</b>  
+
+---
+
+<h2 align="center">✨ Thank You ✨</h2>
