@@ -2,7 +2,7 @@
 A Project Repository about post-training Machine Learning and EDA Assignments and Mini-Projects
 
 <p align="center">
-  <img src="" />
+  <img src="assets/source_python_gif___Google_Search.gif" />
 </p>
 
 <p align="center">
