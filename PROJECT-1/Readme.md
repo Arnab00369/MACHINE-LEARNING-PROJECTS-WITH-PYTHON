@@ -1,4 +1,4 @@
-<h1 align="center">🏥 Medical Insurance Cost Analysis & Prediction</h1>
+<h1 align="center"><img src="https://cdnl.iconscout.com/lottie/premium/preview-watermark/health-insurance-animation-gif-download-9582428.mp4" /> Medical Insurance Cost Analysis & Prediction</h1>
 
 <p align="center">
   <img src="PROJECT-1/assets/demo_medical_insurance_cost_prediction_gif___Google_Search.gif" />
