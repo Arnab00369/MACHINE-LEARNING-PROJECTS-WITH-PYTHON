@@ -1,4 +1,4 @@
-<h1 align="center"><img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/8b1ff273013043.5bfbd9beefa90.gif" width = "100"/> Medical Insurance Cost Analysis & Prediction</h1>
+<h1 align="center"><img src="PROJECT-1/assets/ezgif-606311da0eba5c_source_Medical_icons_gif___Google_Search_gif___Crop_animated_images__GIF__APNG__WebP__AVIF_.gif" width = "100"/> Medical Insurance Cost Analysis & Prediction <img src="PROJECT-1/assets/ezgif-606311da0eba5c_source_Medical_icons_gif___Google_Search_gif___Crop_animated_images__GIF__APNG__WebP__AVIF_.gif" width = "100"/></h1>
 
 <p align="center">
   <img src="PROJECT-1/assets/demo_medical_insurance_cost_prediction_gif___Google_Search.gif" />
