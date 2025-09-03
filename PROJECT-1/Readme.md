@@ -1,7 +1,7 @@
 <h1 align="center">🏥 Medical Insurance Cost Analysis & Prediction</h1>
 
 <p align="center">
-  <img src="PROJECT-1/assets/demo_medical_insurance_cost_prediction_gif___Google_Search.gif">
+  <img src="PROJECT-1/assets/demo_medical_insurance_cost_prediction_gif___Google_Search.gif" />
 </p>
 
 <p align="center">
