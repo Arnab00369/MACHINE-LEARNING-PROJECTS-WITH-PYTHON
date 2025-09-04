@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:E78E17,100:65881A&height=250&section=header&text=Medical%20Insurance%20Cost%20Analysis%20And%20Prediction&fontSize=35&fontColor=ffffff&animation=fadeIn&fontAlignY=40" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:E78E17,100:65881A&height=250&section=header&&fontSize=35&fontColor=ffffff&animation=fadeIn&duration=5000&pause=2000&fontAlignY=40&text=Medical%20Insurance%20Cost%20Analysis%20And%20Prediction" />
 </p>
 
 <p align="center">
-  <img src="PROJECT-1/assets/icon.gif" width="100" />
+  <img src="assets/icon.gif" width="850" />
 </p>
 
 <p align="center">
