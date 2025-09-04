@@ -132,5 +132,5 @@ This repository showcases our **Final Year Group Project** where we applied **Ma
 ---
 
 <p align="center">
-  <img src="assets/da500959c4a72da8dd39ce88fc97208c_abstract_waves_gif___Google_Search.gif" />
+  <img src="assets/ezgif-7b23d7e292487a_da500959c4a72da8dd39ce88fc97208c_abstract_waves_gif___Google_Search_gif___Crop_animated_images__GIF__APNG__WebP__AVIF_ (1).gif" />
 </p>
