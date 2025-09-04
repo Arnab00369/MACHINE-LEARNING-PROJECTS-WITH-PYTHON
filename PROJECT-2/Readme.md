@@ -105,12 +105,30 @@ It combines **data cleaning, exploratory data analysis (EDA), and visualization*
 
 ---
 
-## 👨‍💻 Author  
-**Arnab Jana**  
-🎓 Final Year, B.Tech CSE — Budge Budge Institute of Technology  
+## <h2>👨‍🏫 About the Author</h2>
+
+<b>Arnab Jana</b> — Final-year B.Tech student (CSE) • Budge Budge Institute of Technology  
+
+<b>Role:</b> Data Cleaning • EDA • Regression Modelling • Visualization • Report Writing  
+
+- 🌐 GitHub: <a href="https://github.com/Arnab00369">github.com/your-username</a>  
+- 📧 Email: <a href="arnab003jn.369@gmail.com">arnab003jn.369@gmail.com</a>  
 
 ---
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0072ff,100:00c6ff&height=120&section=footer" />
-</p>
+## <h2>📜 License</h2>
+
+This project is released under the <b>MIT License</b>. See <code>LICENSE</code> for details.  
+
+---
+
+## <h2>📌 Call-to-Action for Recruiters</h2>
+
+If you like what you see:  
+- ⭐ Star this repo  
+- 🔗 Check my profile for more projects  
+- 📨 Contact me for **internship/full-time roles** in <b>Data Science / ML Engineering</b>  
+
+---
+
+<h2 align="center">✨ Thank You ✨</h2>
