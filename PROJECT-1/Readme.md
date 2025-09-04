@@ -1,7 +1,9 @@
-<h1 align="center"><img src="PROJECT-1/assets/ezgif-606311da0eba5c_source_Medical_icons_gif___Google_Search_gif___Crop_animated_images__GIF__APNG__WebP__AVIF_.gif" width = "100"/> Medical Insurance Cost Analysis & Prediction <img src="PROJECT-1/assets/ezgif-606311da0eba5c_source_Medical_icons_gif___Google_Search_gif___Crop_animated_images__GIF__APNG__WebP__AVIF_.gif" width = "100"/></h1>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:E78E17,100:65881A&height=250&section=header&text=Medical%20Insurance%20Cost%20Analysis%20And%20Prediction&fontSize=35&fontColor=ffffff&animation=fadeIn&fontAlignY=40" />
+</p>
 
 <p align="center">
-  <img src="PROJECT-1/assets/demo_medical_insurance_cost_prediction_gif___Google_Search.gif" />
+  <img src="PROJECT-1/assets/icon.gif" width="100" />
 </p>
 
 <p align="center">
